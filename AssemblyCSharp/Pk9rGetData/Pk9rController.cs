@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,7 +23,10 @@ namespace AssemblyCSharp.Pk9rGetData
 
         public static void SaveDataMap()
         {
-            File.WriteAllText("DataMap.json", JsonMapper.ToJson(TileMap.mapNames));
+            Dictionary<int, string> d = new();
+            for (int i = 0; i < TileMap.mapNames.Length; i++)
+                d.Add(i, TileMap.mapNames[i]);
+            File.WriteAllText("DataMap.json", JsonMapper.ToJson(d));
             File.WriteAllText("DataNpc.json", JsonMapper.ToJson(Npc.arrNpcTemplate));
             File.WriteAllText("DataMob.json", JsonMapper.ToJson(Mob.arrMobTemplate));
             IsSaveDataMap = true;
