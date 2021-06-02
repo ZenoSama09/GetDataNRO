@@ -15,7 +15,7 @@ Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v19
 Loading C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.021 seconds
+- Completed reload, in  0.373 seconds
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
@@ -23,10 +23,10 @@ XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.115100 ms
+UnloadTime: 1.084100 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2908 -> priority: 1 
-  Thread -> id: 284 -> priority: 1 
+  Thread -> id: ef0 -> priority: 1 
+  Thread -> id: 1db8 -> priority: 1 
 init Session_ME
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -93,14 +93,6 @@ APP QUIT
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 APP QUIT
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-  at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
-  at System.IO.Stream.ReadByte () [0x00000] in <filename unknown>:0 
-  at System.IO.BinaryReader.ReadByte () [0x00000] in <filename unknown>:0 
-  at System.IO.BinaryReader.ReadSByte () [0x00000] in <filename unknown>:0 
-  at Session_ME+MessageCollector.readMessage () [0x00000] in <filename unknown>:0 
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
