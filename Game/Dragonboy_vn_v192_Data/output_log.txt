@@ -15,7 +15,11 @@ Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v19
 Loading C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+<<<<<<< HEAD
 - Completed reload, in  0.345 seconds
+=======
+- Completed reload, in  0.021 seconds
+>>>>>>> parent of 26ee7ba (update data)
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
@@ -23,10 +27,17 @@ XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initialized touch support.
+<<<<<<< HEAD
 UnloadTime: 1.415400 ms
 Setting up 2 worker threads for Enlighten.
   Thread -> id: 14a0 -> priority: 1 
   Thread -> id: 1ca8 -> priority: 1 
+=======
+UnloadTime: 1.115100 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2908 -> priority: 1 
+  Thread -> id: 284 -> priority: 1 
+>>>>>>> parent of 26ee7ba (update data)
 init Session_ME
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
