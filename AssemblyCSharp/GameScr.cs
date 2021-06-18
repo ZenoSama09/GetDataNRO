@@ -1,4 +1,5 @@
 using System;
+using AssemblyCSharp.Pk9rGetData;
 using Assets.src.g;
 
 public class GameScr : mScreen, IChatable
@@ -4336,6 +4337,7 @@ public class GameScr : mScreen, IChatable
 
 	public override void update()
 	{
+		Pk9rController.UpdateData();
 		if (GameCanvas.keyPressed[16])
 		{
 			GameCanvas.keyPressed[16] = false;

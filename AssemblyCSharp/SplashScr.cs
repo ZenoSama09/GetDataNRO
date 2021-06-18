@@ -48,7 +48,6 @@ public class SplashScr : mScreen
 
 	public static void loadIP()
 	{
-		Pk9rController.UpdateData();
 		if (Rms.loadRMSInt("svselect") == -1)
 		{
 			int num = 0;
