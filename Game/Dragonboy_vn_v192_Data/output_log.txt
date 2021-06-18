@@ -15,7 +15,7 @@ Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v19
 Loading C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.146 seconds
+- Completed reload, in  0.023 seconds
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
@@ -23,10 +23,10 @@ XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.198700 ms
+UnloadTime: 1.015500 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2e88 -> priority: 1 
-  Thread -> id: 2da0 -> priority: 1 
+  Thread -> id: c04 -> priority: 1 
+  Thread -> id: 3340 -> priority: 1 
 init Session_ME
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -43,7 +43,7 @@ connecting...!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-host: dragon7.teamobi.com
+host: dragon1.teamobi.com
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -55,7 +55,7 @@ connecting...!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-host: dragon1.teamobi.com
+host: dragon8.teamobi.com
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -79,7 +79,7 @@ connecting...!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-host: dragon1.teamobi.com
+host: dragon8.teamobi.com
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -91,18 +91,6 @@ connect fail
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-connecting...!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-host: dragon7.teamobi.com
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-port: 14445
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
   at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
   at System.IO.Stream.ReadByte () [0x00000] in <filename unknown>:0 
   at System.IO.BinaryReader.ReadByte () [0x00000] in <filename unknown>:0 
@@ -115,7 +103,29 @@ connecting...!
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-host: dragon1.teamobi.com
+host: dragon9.teamobi.com
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+port: 14445
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  at System.IO.BinaryReader.ReadByte () [0x00000] in <filename unknown>:0 
+  at System.IO.BinaryReader.ReadSByte () [0x00000] in <filename unknown>:0 
+  at Session_ME+MessageCollector.readMessage () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+connect fail
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+connecting...!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+host: dragon8.teamobi.com
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -125,34 +135,9 @@ port: 14445
 
 Platform assembly: C:\Users\pk9r\DataPX\NRO\Mod\GetDataNRO\Game\Dragonboy_vn_v192_Data\Managed\LitJSON.dll (this message is harmless)
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 166 unused Assets to reduce memory usage. Loaded Objects now: 1021.
-Total: 1.394000 ms (FindLiveObjects: 0.052900 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.179400 ms  DeleteObjects: 0.115700 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 771.
-Total: 1.267400 ms (FindLiveObjects: 0.031900 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.194100 ms  DeleteObjects: 0.012500 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 738.
-Total: 1.270000 ms (FindLiveObjects: 0.036100 ms CreateObjectMapping: 0.026000 ms MarkObjects: 1.204600 ms  DeleteObjects: 0.002700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 125 unused Assets to reduce memory usage. Loaded Objects now: 852.
-Total: 1.904700 ms (FindLiveObjects: 0.074800 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.678900 ms  DeleteObjects: 0.091300 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 858.
-Total: 1.574700 ms (FindLiveObjects: 0.052100 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.487800 ms  DeleteObjects: 0.002700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 814.
-Total: 1.579500 ms (FindLiveObjects: 0.032500 ms CreateObjectMapping: 0.026900 ms MarkObjects: 1.516900 ms  DeleteObjects: 0.002600 ms)
+APP QUIT
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 APP QUIT
  
@@ -186,15 +171,7 @@ APP QUIT
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-APP QUIT
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-APP QUIT
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-APP QUIT
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 164 unused Assets to reduce memory usage. Loaded Objects now: 1021.
+Total: 1.458800 ms (FindLiveObjects: 0.086900 ms CreateObjectMapping: 0.055400 ms MarkObjects: 1.200400 ms  DeleteObjects: 0.115600 ms)
 
